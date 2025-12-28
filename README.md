@@ -53,13 +53,15 @@ This naming strategy prevents confusion when working in complex classes that mix
 ### Create Python Dictionary object
 Create python Dictionary object directly
 ```objectscript
+Set pyDict = $$$pyDict
+/// or
 Set pyDict = ##class(%ZPython.Utils).pyDict()
 ```
 
 ### Working with Dictionaries (`%ZPython.Dict`)
 
 Forget complex Python proxy syntax. Use the dictionary wrapper just like an IRIS object.
-
+**include the `%ZPython.inc` file if you're using macros** 
 ```objectscript
 // Create a new wrapped dictionary
 Set pyDict = ##class(%ZPython.Utils).zpyDict()
@@ -90,6 +92,8 @@ Set pyList = ##class(%ZPython.Utils).pyList()
 Easily manage Python lists with 1-based indexing options or standard append methods.
 
 ```objectscript
+Set pyList = $$$pyList
+/// or
 Set pyList = ##class(%ZPython.Utils).zpyList()
 
 Do pyList.Append("First Item")
