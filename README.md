@@ -84,6 +84,7 @@ Write dynObj.%ToJSON()
 ### Create Python list object
 Create python list object directly
 ```objectscript
+Set pyList = $$$pyList
 Set pyList = ##class(%ZPython.Utils).pyList()
 ```
 
