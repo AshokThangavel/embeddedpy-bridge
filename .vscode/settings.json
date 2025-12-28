@@ -1,0 +1,21 @@
+{
+    "objectscript.conn": {
+        "active": true,
+        "server": "ipm",
+        "ns": "USER"
+    },
+    // Force formatting rules
+    "intersystems.testingManager.client.relativeTestRoot": "tests/unit_tests",
+    "objectscript.multilineMethodArgs": true,
+    "intersystems.language-server.formatting.expandClassNames": false,
+    "intersystems.language-server.formatting.commands.case": "word",
+    "intersystems.language-server.formatting.commands.length": "long",
+    "intersystems.language-server.formatting.system.case": "word",
+    "intersystems.language-server.formatting.system.length": "long",
+    // Force tab size and indent using spaces
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true
+}

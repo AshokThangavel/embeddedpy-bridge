@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="embeddedpy-bridge.ZPM">
+    <Module>
+      <Name>embeddedpy-bridge</Name>
+      <ExternalName>embeddedpy-bridge</ExternalName>
+      <Description>Standardized Bridge and OO Wrappers for InterSystems IRIS Embedded Python (Dict, List, Iterators).</Description>
+      <Keywords>python,embedded-python,bridge,utility</Keywords>
+      <Version>1.0.0</Version>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+      <Resource Name="%ZPython.PKG"/>
+    </Module>
+  </Document>
+</Export>
