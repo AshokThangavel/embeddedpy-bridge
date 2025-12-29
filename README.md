@@ -76,7 +76,7 @@ While iter.%GetNext(.key, .val) {
 }
 
 // Convert to IRIS Dynamic Object
-Set dynObj = pyDict.ToDO()
+Set dynObj = pyDict.ToDAO()
 Write dynObj.%ToJSON()
 
 ```
